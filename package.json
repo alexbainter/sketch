@@ -1,0 +1,32 @@
+{
+  "name": "@alexbainter/sketch",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "bin/sketch.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metalex9/sketch.git"
+  },
+  "author": "Alex Bainter <alex@alexbainter.com> (https://alexbainter.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metalex9/sketch/issues"
+  },
+  "homepage": "https://github.com/metalex9/sketch#readme",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-metalex9": "^0.4.0",
+    "html-webpack-plugin": "^4.5.0",
+    "prettier": "^2.1.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "get-port": "^5.1.1"
+  }
+}
